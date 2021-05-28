@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="frmAddModifyAgency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAddModifyAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAddModifyCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAddModifyPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAddModifyProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAddModifySupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAgency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmErrorMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPackages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmSuppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

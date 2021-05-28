@@ -1,0 +1,105 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textSection1.Text" xml:space="preserve">
+    <value>The User can enter into the Agency tab and can see a list of all current Travel Agency locations including AgencyId, Address including Street Address, City, Province, Postal Code, Country as well as their Phone Number and Fax Numbers. From this page the User can add, modify or delete an Agency using the buttons to select which action they would like to pursue. If the request is to add an Agency, a second page will appear asking for the basic information above noted to be added to the screen. They then need to hit the Add button. </value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>If the User is wanting to modify or delete, the second page will come up filled with the information of the Agency and the User will need to either change specific fields to change the Agency information and hit the accept button. Or if it is a delete, they will be asked to confirm that they wish to Delete this Agency. </value>
+  </data>
+  <data name="text2.Text" xml:space="preserve">
+    <value>If it is a modify or delete an Agent, the second page will come up filled with the information of the selected Agent and the User will need to either change specific fields to change the Agent information and hit the accept button. Or if it is a Delete they will be asked to confirm that they wish to Delete this Agent. </value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>The User can enter into the Agent tab and see all current Agents, when an individual wants to add a new Agent to the system they will be prompted to provide the Agent First Name, Agent Last Name, Agent Business Phone Number,  Agent Email, Agent Position and their AgencyID.  </value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>If this is a modify or delete, the second page will come filled with the selected Customer’s details and the User can change specific information and hit the accept button. Or if it is a Delete they will be asked to confirm that they wish to delete this Customer. </value>
+  </data>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>When a User enters into the Customer tab they are able to see a list of all current Customers. If the User  would like to enter a New Customer, the second page will display where they are asked to complete the following information. Customer First Name, Customer Last Name, Customer Address, Customer City, Customer Home Phone Number and Customer Email Address. </value>
+  </data>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>If it is a modify or delete, the second page will come filled with the selected Supplier’s details and the User can change specific information and hit the accept button. Or if this is a Delete they will be asked to confirm that they wish to delete this Supplier. </value>
+  </data>
+  <data name="textBox6.Text" xml:space="preserve">
+    <value>When a User would like to enter a new Supplier, the second page will display where they are asked to complete the following information. Supplier Name, Supplier Address, Supplier City, Supplier Country, Supplier Email and Supplier Phone Number. </value>
+  </data>
+  <data name="textBox7.Text" xml:space="preserve">
+    <value>If it is a modify or delete, the second page will come filled with the selected Product’s details and the User can change specific information and hit the accept button. Or if it is a Delete they will be asked to confirm that they wish to delete this Product.  </value>
+  </data>
+  <data name="textBox9.Text" xml:space="preserve">
+    <value>If the User is wanting to modify or delete the Package, the second page will come filled with the selected Package’s details and the User can change specific information and hit the accept button. Or if it is a Delete they will be asked to confirm that they wish to delete this Package. </value>
+  </data>
+  <data name="textBox10.Text" xml:space="preserve">
+    <value>When a User would like to enter a new Package, the second page will display where they are asked to complete the following information. Package Name, Package Description, Package Start Date, Package End Date, Package Cost and Package Commission. </value>
+  </data>
+  <data name="textBox16.Text" xml:space="preserve">
+    <value>The User can now click the Calculate Total + Tax button and the Total amount will display. The User now only needs to confirm that this is confirmed with the Customer and hit the ‘Book Now’ to complete the reservation. </value>
+  </data>
+  <data name="textBox15.Text" xml:space="preserve">
+    <value>Next the User will need to populate the Customer’s information. If the customer is an existing client, the User can use the drop down box to select the customer, click on the ‘Get Customer’ button and the required fields will populate. If this is a new Customer the User will first need to add a new customer under the Customer tab before completing the Booking. </value>
+  </data>
+  <data name="textBox13.Text" xml:space="preserve">
+    <value>If the User would like to add on additional Products to the Booking there is a drop down box in the Product Selection field where the User can choose an exiting Product, click on the ‘Get Product’ button and the information for that Product will populate in the required fields. </value>
+  </data>
+  <data name="textBox11.Text" xml:space="preserve">
+    <value>Under the Select Package field there is a drop down box that allows the User to pick a current Package, click on the ‘Get Package’ button and the information for that Package will populate in the required fields.  </value>
+  </data>
+</root>
