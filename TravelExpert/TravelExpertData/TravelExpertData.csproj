@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="TravelExpertData.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="5.15.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
